@@ -1,0 +1,109 @@
+/* Specification */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* Header */
+.header__up{
+    background-color: #000;
+    height: 40px;
+}
+ul .header__nav{
+    list-style-type: none;
+}
+li.header__nav{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+    border-right: 1px solid white;
+}
+.header__logo img {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.header__nav a{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+.header__text{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.header__prof{
+    color: red;
+}
+.header__picture{
+    background-image: url("../img/header.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 270px;
+    position: relative;
+}
+.my_photo{
+    display: block;
+    position: absolute;
+    top: -90px;
+    left:150px;
+}
+.owner_data{
+    margin-top: 20px;
+}
+.name {
+    margin-bottom: 0;
+}
+ /* section = 'skills" */
+.skills ul{
+    list-style-type: circle;
+}
+.skills__border{
+    border-right: 1px dashed #0F2538;
+}
+.skills__title{
+    text-align: center;
+}
+ul.skills{
+    padding: 0;
+}
+.interests li, .skills li{
+    font-size: 14px;
+}
+.projects__title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.projects a{
+    padding: 20px 30px;
+    color: white;
+    width: 80px;
+    height: 60px;
+    background: #4e555b;
+    margin-top: 60px;
+    transition: all 1s ease;
+}
+.projects a:hover{
+    background:  #F20C1F;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
