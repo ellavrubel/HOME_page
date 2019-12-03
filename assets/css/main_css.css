@@ -7,7 +7,6 @@ body {
 /* Header */
 
 
-
 .header__up{
     background-color: #000;
     height: 40px;
@@ -159,31 +158,6 @@ ul.skills__list{
 }
 
 
-
-/*.projects__title{
-    text-align: center;
-    margin-bottom: 50px;
-}
-.projects a{
-    padding: 20px 30px;
-    color: white;
-    width: 80px;
-    height: 60px;
-    background: #4e555b;
-    margin-top: 60px;
-    transition: all 1s ease;
-}
-.projects a:hover{
-    background:  #F20C1F;
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    text-decoration: none;
-    cursor: pointer;
-
-}*/
 
 
 
