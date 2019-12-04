@@ -159,25 +159,25 @@ ul.skills__list{
     border-radius: 20px;
     box-shadow: 0 23px 130px rgba(235,30,41,.6);
     background-color: rgba(99, 99, 99,.3);
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 .btn-second a{
     padding-top: 15px;
     padding-bottom: 15px;
     color: red;
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 .btn-first a{
     padding-top: 15px;
     padding-bottom: 15px;
     color: red;
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 .btn-first a:hover{
-    color: #4e555b;
+    color: snow;
 }
 .btn-second a:hover{
-    color: #4e555b;
+    color: snow;
 }
 .btn-first:hover {
     box-shadow: 0 23px 130px rgba(99, 99, 99,.9);
@@ -216,6 +216,7 @@ ul.skills__list{
 .contacts__icon span{
     font-size: 1.5em;
     margin-right: 15px;
+    margin-left: 100px;
 }
 .contacts__text p{
     padding-top: 6px;
@@ -226,6 +227,9 @@ ul.skills__list{
     color: red;
     margin-right: 20px;
 }
+.dog{
+    color: #7ce6ff;
+}
 
 /* @Media */
 
@@ -234,13 +238,108 @@ ul.skills__list{
    .owner_data {
        margin-left: 50px;
    }
-
+    .contacts__icon span{
+        margin-left: 30px;
+    }
 }
 
 
+@media screen and (max-width: 992px){
 
+    .my_photo{
+        position: relative;
+        top: -40px;
+        left: 0;
+        width: 100%;
+    }
+    .interests li, .skills li {
+        font-size: 1em;
+    }
+    .skills__title{
+        padding-top: 50px;
 
+        font-size: 24px;
+    }
+    ul .interests{
+        margin-right: 80px;
 
+    }
+    .inter_skills{
+        justify-content: start;
+    }
+
+    li.header__nav a{
+        font-size: 12px;
+    }
+    .contacts__title{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .header__text{
+        font-size: 13px;
+    }
+    .interests li, .skills li {
+        font-size: 1em;
+    }
+    .projects__one, .projects__two{
+        padding-bottom: 0;
+    }
+    .contacts__icon span{
+        margin-left: 0;
+    }
+    li .header__nav{
+        margin-right: 20px;
+    }
+    .header__up{
+        height: 50px;
+    }
+    li.header__nav{
+        text-align: center;
+    }
+    .contacts__icon span{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 576px){
+
+    .contacts__text p{
+        letter-spacing: 0;
+        margin-left: 20px;
+    }
+    .contacts__icon span{
+        display: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 501px) {
+    .contacts__text p{
+        letter-spacing: 0;
+        margin-left: 0;
+    }
+    .owner_data{
+        margin-left: 0;
+    }
+    .my_photo {
+        position: absolute;
+        top: -40px;
+        left: 20px;
+    }
+    .header__up{
+        height: auto;
+    }
+   ul .header__nav{
+       flex-wrap: wrap;
+   }
+    li.header__nav{
+       border-right: none;
+    }
+    .contacts__title {
+        font-size: 16px;
+    }
+}
 
 
 
