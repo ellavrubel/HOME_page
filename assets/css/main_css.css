@@ -2,7 +2,9 @@
 body {
     font-family: 'Merriweather', serif;
 }
-
+ button{
+     display: block;
+ }
 
 /* Header */
 
@@ -143,37 +145,58 @@ ul.skills__list{
 
 .projects__title{
     text-align: center;
-    padding: 45px 0;
+    padding-top: 45px;
+    margin-bottom: 100px;
     font-weight: bold;
 }
-.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12 {
-    width: 350px;
-    height: 250px;
+.projects__one, .projects__two{
+    padding-bottom: 45px;
 }
-.item1, .item2{
-    background-color: rgba(99,99,99,0.41);
+.btn-first, .btn-second{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 0 23px 130px rgba(235,30,41,.6);
+    background-color: rgba(99, 99, 99,.3);
+    transition: all 2s ease;
+}
+.btn-second a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: red;
+    transition: all 2s ease;
+}
+.btn-first a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: red;
+    transition: all 2s ease;
+}
+.btn-first a:hover{
+    color: #4e555b;
+}
+.btn-second a:hover{
+    color: #4e555b;
+}
+.btn-first:hover {
+    box-shadow: 0 23px 130px rgba(99, 99, 99,.9);
+    background-color: rgba(235,30,41,.6);
 
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
-.item3, .item5, .item7{
-    background-color: rgba(226, 142, 28, 0.5);
-}
-.item4, .item6, .item8{
-    background-color: rgba(184,134,226,0.5);
-}
-.item9, .item10, .item11, .item12{
-    background-color: rgba(77,226,187,0.5);
-}
-.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12 h4{
-    color: snow;
-}
-
-.owl-theme .owl-nav.disabled+.owl-dots{
-    padding: 40px 0;
-}
-
-.carousel-wrapper .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12 h4{
-    text-align: center;
-    padding-top: 100px;
+.btn-second:hover{
+    box-shadow: 0 23px 130px rgba(99, 99, 99,.9);
+    background-color: rgba(235,30,41,.6);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* Footer */
@@ -203,6 +226,38 @@ ul.skills__list{
     color: red;
     margin-right: 20px;
 }
+
+/* @Media */
+
+@media screen and (max-width: 1200px){
+
+   .owner_data {
+       margin-left: 50px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

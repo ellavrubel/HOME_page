@@ -1,11 +1,16 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
 
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
         autoplay: true,
+        itemsDesktop : true,
+        itemsDesktopSmall : true,
+        itemsTablet: true,
+        itemsMobile : true,
         smartSpeed: 6000,
         autoplayTimeout: 6000,
+        responsiveClass:true,
         responsive:{
             0:{
                 items:1
@@ -18,4 +23,4 @@ $(document).ready(function () {
             }
         }
     })
-})
+})*/
