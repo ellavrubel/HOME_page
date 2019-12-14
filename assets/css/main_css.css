@@ -1,13 +1,13 @@
 /* Specification */
 body {
     font-family: 'Merriweather', serif;
+    background-color: rgba(162, 162, 162, 0.27);
 }
  button{
      display: block;
  }
 
 /* Header */
-
 
 .header__up{
     background-color: #000;
@@ -46,6 +46,7 @@ li.header__nav{
     background-position: center center;
     background-repeat: no-repeat;
     height: 270px;
+
     position: relative;
 }
 .my_photo{
@@ -149,69 +150,29 @@ ul.skills__list{
     margin-bottom: 100px;
     font-weight: bold;
 }
-.projects__one, .projects__two{
-    padding-bottom: 45px;
+.proj{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
 }
-.btn-first, .btn-second{
-    width: 250px;
-    height: 50px;
-    margin-bottom: 100px;
-    border-radius: 20px;
-    box-shadow: 0 23px 130px rgba(235,30,41,.6);
-    background-color: rgba(99, 99, 99,.3);
-    transition: all 1s ease;
+.proj-range{
+    padding-bottom: 10rem;
 }
-.btn-second a{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: red;
-    transition: all 1s ease;
-}
-.btn-first a{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: red;
-    transition: all 1s ease;
-}
-.btn-first a:hover{
-    color: snow;
-}
-.btn-second a:hover{
-    color: snow;
-}
-.btn-first:hover {
-    box-shadow: 0 23px 130px rgba(99, 99, 99,.9);
-    background-color: rgba(235,30,41,.6);
 
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.btn-second:hover{
-    box-shadow: 0 23px 130px rgba(99, 99, 99,.9);
-    background-color: rgba(235,30,41,.6);
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
 
 /* Footer */
 .footer{
-    background-image: url("../img/footer2.png");
-    opacity: 0.7;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
     height: 300px;
-    color:snow;
+
 }
 
 .contacts__title{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5.5rem;
 }
 .contacts__icon span{
     font-size: 1.5em;
@@ -228,7 +189,7 @@ ul.skills__list{
     margin-right: 20px;
 }
 .dog{
-    color: #7ce6ff;
+    color: black;
 }
 
 /* @Media */
