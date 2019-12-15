@@ -7,7 +7,7 @@
 
 if (!isset($_POST['name']) and !isset($_POST['email'])) {
     ?>
-    <form action="." method="post">
+    <form action="contact.php" method="post">
         <input type="text" name="name" placeholder="Name" required>
         <input type="email" name="email" placeholder="Email" required>
         <input type="text" class="textarea" name ="msg">
