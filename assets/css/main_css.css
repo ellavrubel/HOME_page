@@ -192,6 +192,18 @@ ul.skills__list{
     color: black;
 }
 
+
+
+/* ----- Contact Form ----- */
+
+
+
+
+
+
+
+
+
 /* @Media */
 
 @media screen and (max-width: 1200px){
@@ -245,9 +257,7 @@ ul.skills__list{
     .interests li, .skills li {
         font-size: 1em;
     }
-    .projects__one, .projects__two{
-        padding-bottom: 0;
-    }
+
     .contacts__icon span{
         margin-left: 0;
     }

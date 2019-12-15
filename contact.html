@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/main_css.css" rel="stylesheet">
+
+    <title>Форма обратной связи</title>
+</head>
+
+<body>
+
+<?php
+
+if (!isset($_POST['name']) and !isset($_POST['email'])) { ?>
+
+<section class="contact">
+     <div class="container">
+
+
+             <form class="form" action="contact.html" method="post">
+                 <div class="form-row">
+                 <div class="col col-md-6">
+
+        <label class="lable_name col-form-label-lg" for="NAME">Ваше Имя<span class="star">*</span></label>
+        <input id="NAME" class="form-control form-control-lg" type="text" name="name" placeholder="Имя/Название организации" required>
+                 </div>
+
+
+                 <div class="col col-md-6">
+
+        <label class="lable_email col-form-label-lg" for = "EMAIL">Ваш эл. адрес<span class="star">*</span></label>
+        <input class="form-control form-control-lg" id="EMAIL" type="email" name="email" placeholder="Введите электронный адрес, по которому можно с вами связаться" required>
+                 </div>
+                 </div>
+                 <div class="form-row">
+                     <div class="col">
+
+         <label class="col-form-label-lg" for="MSG">Текст сообщения</label>
+        <textarea id="MSG" class="contact_message form-control form-control-lg" type="text"  name="msg" placeholder="Оставьте свое сообщение"></textarea>
+                     </div>
+                 </div>
+                 <div class="contact__btn">
+                 <button type="submit" class="btn btn-outline-success">Отправить сообщение</button>
+                 </div>
+
+
+
+
+             </form>
+
+    </div>
+
+</section>
+
+<?php } else {
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $msg = htmlspecialchars($_POST['msg']);
+    $name = urldecode($name);
+    $email = urldecode($email);
+    $msg = urldecode($msg);
+    $name = trim($name);
+    $email = trim($email);
+    $to = "ella.vrubel@yandex.ru";
+    $subject = 'Contact Form';
+    $headers = "From: {$_POST['email']}\r\n";
+    $result = mail($to, $subject, $msg, $headers);
+    if ($result) {
+        echo "message sent";
+    } else {
+        echo "something went wrong";
+    }
+}
+?>
+
+</body>
+</html>
