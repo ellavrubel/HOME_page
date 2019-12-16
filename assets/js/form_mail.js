@@ -5,12 +5,12 @@ $(document).ready(function () {
             var name = $('#NAME').val().trim();
             var message = $('#MSG').val().trim();
 
-            if (email === "") {
-                $('#errorMess').text('Введите email');
+            if (name === "") {
+                $('#errorMess').text('Введите имя/наименование организации');
 
                 return false;
-            } else if (name === "") {
-                $('#errorMess').text('Введите имя/наименование организации');
+            } else if (email === "") {
+                $('#errorMess').text('Введите email');
 
                 return false;
             } else if (message.length < 5){
@@ -22,7 +22,7 @@ $(document).ready(function () {
 
             $.ajax({
 
-                url: '../../assets/contact.php',
+                url: '../../contact.php',
                 type: 'POST',
                 cache: false,
                 data: {'email': email, 'name': name, 'message': message },
