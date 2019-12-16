@@ -20,9 +20,23 @@ $(document).ready(function () {
 
             $('#errorMess').text('');
 
+            $.ajax({
 
+                url: '../../assets/contact.php',
+                type: 'POST',
+                cache: false,
+                data: {'email': email, 'name': name, 'message': message },
+                dataType: 'html',
+                beforeSend: function () {
+                    $('#sendmail').prop('disabled', true);
+                },
+                success: function (data) {
+                    alert(data);
+                    $('#sendmail').prop('disabled', false);
 
+                }
+            })
 
     });
 
-})
+});
