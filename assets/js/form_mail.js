@@ -31,7 +31,12 @@ $(document).ready(function () {
                     $('#sendmail').prop('disabled', true);
                 },
                 success: function (data) {
-                    alert(data);
+                    if (!data)
+                        alert("Ошибка. Сообщение не отправлено! Проверьте правильность введенных данных");
+                 else {
+                     $('.form').trigger('reset');
+                    }
+
                     $('#sendmail').prop('disabled', false);
 
                 }

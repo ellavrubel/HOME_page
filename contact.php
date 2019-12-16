@@ -5,7 +5,6 @@ return;
 
 // КЛЮЧИ
 
-
 define('SECRET_KEY', '6Ldr5ccUAAAAAC6DJSIPWWcCYgB1FYb-R3rdKV8k');
 
 //ОБРАБОТКА ЗАПРОСА
@@ -51,18 +50,11 @@ if (!isset($_POST['name']) and !isset($_POST['email'])) {
     $msg = urldecode($msg);
     $name = trim($name);
     $email = trim($email);
-    $to = "ella.vrubel@yandex.ru";
-    $subject = 'Contact Form';
-    $headers = "From: {$_POST['email']}\r\n";
+    $to = 'ella.vrubel@yandex.ru';
+    $subject = '=?utf-8?B?' . base64_encode('webella-message' . '?=');
+    $headers = 'From: email\r\nReply-to: $email\r\nContent-type: text-html; charset=utf-8\r\n';
+
     $result = mail($to, $subject, $msg, $headers);
-    if ($result) {
-        echo "Спасибо! Я внимательно ознакомлюсь с предложением и отвечу вам в ближайшее время.";
-    } else {
-        echo "Ошибка. Сообщение не отправлено! Проверьте правильность введенных данных";
-    }
-//else {
-//        http_response_code(403);
-//        echo "Попробуйте еще раз";
-//    }
+    echo $result;
 }
 ?>
