@@ -115,7 +115,9 @@ li.header__nav{
  /* section = 'skills" */
 
 .skills{
-    background-image: linear-gradient(to right, rgba(125, 140, 160, 0.1), rgba(125, 140, 160,.3));
+    /*background-color: rgba(162, 162, 162, 0.27);
+
+    /*background: linear-gradient(to right, rgba(125, 140, 160, 0.1), rgba(125, 140, 160,.3));*/
 }
 .inter_skills{
     padding-top: 50px;
@@ -140,10 +142,6 @@ ul.skills__list{
 
 /*Projects */
 
-.projects{
-    background-image: linear-gradient(to right, rgba(125, 140, 160, 0.1), rgba(125, 140, 160,.3));
-}
-
 .projects__title{
     text-align: center;
     padding-top: 45px;
@@ -155,8 +153,12 @@ ul.skills__list{
     width: 80%;
     margin: 0 auto;
 }
+
 .proj-range{
-    padding-bottom: 10rem;
+    margin-bottom: 10rem;
+    background-color: rgba(241, 241, 241, 0.6);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -166,13 +168,12 @@ ul.skills__list{
     background: -moz-linear-gradient(#fff, #999);
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
-    height: 300px;
-
+    height: 38rem;
 }
 
 .contacts__title{
     text-align: center;
-    padding-top: 5.5rem;
+    padding: 3.5rem 0 2.5rem;
 }
 .contacts__icon span{
     font-size: 1.5em;
@@ -189,14 +190,95 @@ ul.skills__list{
     margin-right: 20px;
 }
 .dog{
-    color: black;
+    color: red;
 }
-
 
 
 /* ----- Contact Form ----- */
 
+.contactForm{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#MSG{
+    height: 15vh;
+    margin-bottom: 3vh;
+    resize: none;
+}
+.star{
+    color: red;
+}
+input[type="text"]::-webkit-input-placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
 
+input[type="text"]:-ms-input-placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+input[type="text"]::-ms-input-placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+input[type="text"]::placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+
+input[type="email"]::-webkit-input-placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+
+input[type="email"]:-ms-input-placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+input[type="email"]::-ms-input-placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+input[type="email"]::placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+
+
+textarea[type="text"]::-webkit-input-placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+
+textarea[type="text"]:-ms-input-placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+
+textarea[type="text"]::-ms-input-placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
+
+textarea[type="text"]::placeholder {
+    font-style: italic;
+    color: #b7b7b7;
+    font-size: calc(0.8rem + 0.1vh);
+}
 
 
 
