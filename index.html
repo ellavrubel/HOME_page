@@ -81,20 +81,20 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2 class="skills__title">Интересы & Навыки</h2>
+                <h3 class="skills__title">Интересы & Навыки</h3>
                 <div class="inter_skills d-flex justify-content-around">
                     <ul class="interests animated fadeInLeft">
                         <li>Computer Science</li>
                         <li>Programming</li>
+                        <li>Javascript</li>
+                        <li>jQuery</li>
                         <li>Linguistics</li>
-                        <li>Independent Journeys</li>
-                        <li>Music</li>
+
                     </ul>
                     <ul class="skills__list animated fadeInLeft">
                         <li>HTML5</li>
-                        <li>CSS/CSS3</li>
+                        <li>CSS/CSS3/CSS4</li>
                         <li>Bootstrap</li>
-                        <li>jQuery</li>
                         <li>English(B2)</li>
                         <li>Adobe Photoshop</li>
                         <li>Figma</li>
@@ -134,13 +134,12 @@
     <div class="container">
         <h5 class="contacts__title">Контактная информация</h5>
         <div class="row d-flex justify-content-between">
-            <div class="col-md-8">
+            <div class="col col-md-6">
 
 
-            <form class="form" action="contact.php" method="post">
+            <form class="form" action="/" method="post">
                 <div class="form-row">
                     <div class="col">
-
                         <label class="lable_name col-form-label-sm" for="NAME"></label>
                         <input id="NAME" class="form-control form-control-sm" type="text" name="name" placeholder="Имя/Название организации" required>
                     </div>
@@ -148,38 +147,62 @@
 
                 <div class="form-row">
                     <div class="col">
-
                         <label class="lable_email col-form-label-sm" for = "EMAIL"></label>
                         <input class="form-control form-control-sm" id="EMAIL" type="email" name="email" placeholder="Введите электронный адрес" required>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="col">
-
                         <label class="col-form-label-sm" for="MSG"></label>
                         <textarea id="MSG" class="contact_message form-control form-control-sm" type="text"  name="msg" placeholder="Оставьте свое сообщение"></textarea>
                     </div>
                 </div>
+
                 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />
+
                 <div class="contact__btn">
-                    <button type="submit" class="btn btn-outline-success">Отправить сообщение</button>
+                    <button type="button" class="btn btn-outline-success">Отправить сообщение</button>
                 </div>
             </form>
 
-            <script src="https://www.google.com/recaptcha/api.js?render=<?php echo SITE_KEY?>"></script>
+                <!--Script CAPTCHA -->
 
+            <script src="https://www.google.com/recaptcha/api.js?render=6Ldr5ccUAAAAAAo1EkKX7urj5Dkvl14acauFluEB"></script>
             <script>
                 grecaptcha.ready(function() {
-                    grecaptcha.execute('<?php echo SITE_KEY;?>', {action: 'homepage'}).then(function(token) {
+                    grecaptcha.execute('6Ldr5ccUAAAAAAo1EkKX7urj5Dkvl14acauFluEB', {action: 'homepage'}).then(function(token) {
                         console.log(token);
                         document.getElementById('g-recaptcha-response').value=token;
                     });
                 });
             </script>
+
+                <!--Script отправки данных в обработчик -->
+
+            <script>
+                    $(document).ready(function () {
+                        $('form').submit(function () {
+                            var formID = $(this).attr('id'); // Получение ID формы
+                            var formNm = $('#' + formID);
+                            $.ajax({
+                                type: 'POST',
+                                url: 'contact.php', // Обработчик формы отправки
+                                data: formNm.serialize(),
+                                success: function (data) {
+                                    // Вывод текста результата отправки в текущей форме
+                                    $(formNm).html(data);
+                                }
+                            });
+                            return false;
+                        });
+                    });
+                </script>
+
             </div>
 
 
-            <div class="col-md-4 d-flex justify-content-center align-items-center">
+            <div class="col col-md-6 d-flex justify-content-center align-items-center">
                 <div class="contacts-wrapper d-flex flex-column">
                     <div class="contacts__text">
                             <p>ellavrubel<span class="dog">@</span>yandex.ru</p>
@@ -191,21 +214,11 @@
                         <a class="contacts__social" target="_blank" href="https://t.me/EllaVrubel"><i class="fa fa-telegram"></i></a>
                         <a class="contacts__social" target="_blank" href="https://github.com/ellavrubel"><i class="fa fa-github"></i></a>
 
-
                     </div>
-                </div>
-
+               </div>
             </div>
-
-
-
-
-
-
-
         </div>
-        </div>
-
+    </div>
 </footer>
 
 
@@ -213,7 +226,7 @@
 
 
 
-
+<script src="js/jquery-3.4.1.min.js"></script>
 
 </body>
 </html>
