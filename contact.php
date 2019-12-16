@@ -1,46 +1,46 @@
 <?php
 
-//echo "OK";
-//return;
+echo "OK";
+return;
 
 // КЛЮЧИ
 
-//define('SECRET_KEY', '6Ldr5ccUAAAAAC6DJSIPWWcCYgB1FYb-R3rdKV8k');
+define('SECRET_KEY', '6Ldr5ccUAAAAAC6DJSIPWWcCYgB1FYb-R3rdKV8k');
 
 //ОБРАБОТКА ЗАПРОСА
 
-//if ($_POST) {
+if ($_POST) {
     //СОЗДАЕМ ФУНКЦИЮ КОТОРАЯ ДЕЛАЕТ ЗАПРОС НА GOOGLE СЕРВИС
 
-   // function getCaptcha($SecretKey)
-    //{
-       // $Response = file_get_contents(
-         //   "https://www.google.com/recaptcha/api/siteverify?secret=" . SECRET_KEY . "&response={$SecretKey}"
-      //  );
-      //  $Return = json_decode($Response);
-     //   return $Return;
-    //}
+   function getCaptcha($SecretKey)
+    {
+       $Response = file_get_contents(
+           "https://www.google.com/recaptcha/api/siteverify?secret=" . SECRET_KEY . "&response={$SecretKey}"
+       );
+       $Return = json_decode($Response);
+       return $Return;
+   }
 
     //ПРОИЗВОДИМ ЗАПРОС НА GOOGLE СЕРВИС И ЗАПИСЫВАЕМ ОТВЕТ
 
-   // $Return = getCaptcha($_POST['g-recaptcha-response']);
+   $Return = getCaptcha($_POST['g-recaptcha-response']);
 
     //ВЫВОДИМ НА ЭКРАН ПОЛУЧЕННЫЙ ОТВЕТ
 
-   // var_dump($Return);
+   var_dump($Return);
 
-    // ЕСЛИ ЗАПРОС УДАЧНО ОТПРАВЛЕН И ЗНАЧЕНИЕ score БОЛЬШЕ 0,3 ВЫПОЛНЯЕМ КОД
+    //ЕСЛИ ЗАПРОС УДАЧНО ОТПРАВЛЕН И ЗНАЧЕНИЕ score БОЛЬШЕ 0,3 ВЫПОЛНЯЕМ КОД
 
-    //if ($Return->success == true && $Return->score > 0.3) {
-   //     echo "Succes!";
-   // } else {
-    //    echo "You are Robot";
-    //}
-//}
+    if ($Return->success == true && $Return->score > 0.3) {
+       echo "Succes!";
+   } else {
+       echo "You are Robot";
+    }
+}
 
 if (!isset($_POST['name']) and !isset($_POST['email'])) {
     return false;
-    // add redirect
+    //add redirect
 } else {
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
