@@ -127,7 +127,7 @@
 
             </div>
         </div>
-    </div>
+
 </section>
 
 <footer class="footer"><a name="cont"></a>
@@ -159,12 +159,13 @@
                     </div>
                 </div>
 
-                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
                 <div class="contact__btn">
-                    <button type="button" class="btn btn-outline-success">Отправить сообщение</button>
+                    <button id="sendmail" type="button" class="btn btn-outline-success">Отправить сообщение</button>
                 </div>
             </form>
+                <div id="errorMess"></div>
 
                 <!--Script CAPTCHA -->
 
@@ -177,29 +178,7 @@
                     });
                 });
             </script>
-
-                <!--Script отправки данных в обработчик -->
-
-            <script>
-                    $(document).ready(function () {
-                        $('form').submit(function () {
-                            var formID = $(this).attr('id'); // Получение ID формы
-                            var formNm = $('#' + formID);
-                            $.ajax({
-                                type: 'POST',
-                                url: 'contact.php', // Обработчик формы отправки
-                                data: formNm.serialize(),
-                                success: function (data) {
-                                    // Вывод текста результата отправки в текущей форме
-                                    $(formNm).html(data);
-                                }
-                            });
-                            return false;
-                        });
-                    });
-                </script>
-
-            </div>
+    </div>
 
 
             <div class="col col-md-6 d-flex justify-content-center align-items-center">
@@ -227,6 +206,7 @@
 
 
 <script src="js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/form_mail.js"></script>
 
 </body>
 </html>
