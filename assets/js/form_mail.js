@@ -14,7 +14,7 @@ $(document).ready(function () {
 
                 return false;
             } else if (message.length < 5){
-                $('#errorMess').text('Напишите чуть больще по сути вашего обращения');
+                $('#errorMess').text('Напишите чуть больше по сути вашего обращения');
                 return false;
             }
 
