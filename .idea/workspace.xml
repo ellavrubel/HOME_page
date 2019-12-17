@@ -4,7 +4,6 @@
     <list default="true" id="90323875-b6ed-45d7-aa2f-4f44fdb05911" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/form_mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/form_mail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <workItem from="1575524255102" duration="90000" />
       <workItem from="1576568089639" duration="2403000" />
       <workItem from="1576570627043" duration="1700000" />
-      <workItem from="1576580220432" duration="4161000" />
+      <workItem from="1576580220432" duration="4767000" />
     </task>
     <task id="LOCAL-00001" summary="gitinit">
       <created>1575296504244</created>
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576577955521</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="append msg">
+      <created>1576586038713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576586038713</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,16 +146,17 @@
     <MESSAGE value="footer2 img" />
     <MESSAGE value="background" />
     <MESSAGE value="final version" />
-    <option name="LAST_COMMIT_MESSAGE" value="final version" />
+    <MESSAGE value="append msg" />
+    <option name="LAST_COMMIT_MESSAGE" value="append msg" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1576577955373">
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1576586038447">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1576577955373" />
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1576577976032">
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1576586038447" />
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1576586044359">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1576577976032" />
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1576586044359" />
   </component>
 </project>
