@@ -34,11 +34,11 @@ li.header__nav{
 /* ---section Main -----*/
 
 .main{
-    padding-top: 30vh;
+    padding-top: 10vh;
     background-image: url("../img/pattern.png");
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
 
 }
 .header__text{
@@ -50,8 +50,13 @@ li.header__nav{
     color: red;
 }
 .my_photo{
-    width: 50%;
+    width: 60%;
+    margin-right: 3rem;
 }
+.name{
+    padding-right: 4rem;
+}
+
 .owner_data{
     margin-top: 20px;
 }
@@ -154,11 +159,9 @@ ul.skills__list{
 /* Footer */
 
 .footer{
-    background: #fff;
-    background: -moz-linear-gradient(#fff, #999);
-    background: -webkit-linear-gradient(#fff, #999);
-    background: -o-linear-gradient(#fff, #999);
-    height: 38rem;
+    height: 40px;
+    background-color: black;
+
 }
 .contacts__title{
     text-align: center;
