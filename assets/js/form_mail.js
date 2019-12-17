@@ -38,7 +38,7 @@ $(document).ready(function () {
                 } else {
                     $('.form').trigger('reset');
                     var successMessage = 'Спасибо! Я внимательно ознакомлюсь с предложением и в ближайшее время свяжусь с вами.';
-                    $('#status').append(successMessage);
+                    $('#status').append(successMessage).css({'visibility':'visible'});
                 }
 
                 $('#sendmail').prop('disabled', false);
