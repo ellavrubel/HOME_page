@@ -54,6 +54,9 @@ li.header__nav{
     width: 60%;
     margin-right: 3rem;
 }
+.hello{
+    margin-top: 2rem;
+}
 
 p.name{
     width: 400px;

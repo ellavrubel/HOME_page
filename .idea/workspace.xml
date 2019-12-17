@@ -59,19 +59,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Portfolio.html" />
-        <option value="$PROJECT_DIR$/js/main_js.js" />
-        <option value="$PROJECT_DIR$/Portfolio_Index.html" />
-        <option value="$PROJECT_DIR$/css/main_css.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/assets/css/main_css.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
@@ -169,38 +156,6 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="25175000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4846154" weight="0.16308725" />
-      <window_info id="Favorites" order="1" sideWeight="0.50384617" side_tool="true" weight="0.16213334" />
-      <window_info x="26" y="134" width="839" height="845" id="Terminal" maximized="true" order="2" type="WINDOWED" weight="0.33706668" />
-      <window_info x="511" y="198" width="513" height="428" id="Version Control" order="3" type="WINDOWED" weight="0.50104165" />
-      <window_info id="Structure" order="4" sideWeight="0.5153846" side_tool="true" weight="0.12693334" />
-      <window_info id="TODO" order="5" weight="0.32947975" />
-      <window_info id="Docker" order="6" show_stripe_button="false" weight="0.3298077" />
-      <window_info id="Find" order="7" weight="0.28853333" />
-      <window_info id="Run" order="8" weight="0.32906666" />
-      <window_info id="Database Console" order="9" weight="0.32906666" />
-      <window_info id="Debug" order="10" weight="0.26186666" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="2" weight="0.39930555" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3298611" />
-      <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.21866667" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.24213333" />
-      <window_info anchor="right" x="1015" y="771" width="882" height="343" id="Event Log" internal_type="SLIDING" order="5" side_tool="true" type="SLIDING" weight="0.25226668" />
-      <window_info anchor="right" x="726" y="481" width="468" height="630" id="File Transfer" internal_type="SLIDING" order="6" type="WINDOWED" weight="0.2496" />
-      <window_info anchor="right" id="Command Line Tools Console" order="7" weight="0.32906666" />
-      <window_info anchor="right" x="92" y="92" width="1736" height="986" id="Documentation" order="8" type="FLOATING" />
-      <window_info anchor="right" id="REST Client" order="9" weight="0.39306667" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
