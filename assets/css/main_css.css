@@ -232,8 +232,7 @@ ul.skills__list{
     color: white;
     font-size: 0.88rem;
     padding: 1.3rem;
-
-
+    visibility: hidden;
 }
 
 input[type="text"]::-webkit-input-placeholder {

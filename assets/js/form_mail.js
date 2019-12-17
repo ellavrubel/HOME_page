@@ -33,7 +33,7 @@ $(document).ready(function () {
             success: function (data) {
                 if (!data) {
                     var errorMessage = 'Сервер не отвечает. Сообщение не отправлено! Попробуйте связаться со мной не через сайт.'
-                    $('#status').append(errorMessage);
+                    $('#status').append(errorMessage).css({'visibility':'visible'});
 
                 } else {
                     $('.form').trigger('reset');
