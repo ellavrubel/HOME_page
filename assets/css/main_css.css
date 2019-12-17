@@ -45,6 +45,7 @@ li.header__nav{
     text-align: center;
     text-transform: uppercase;
     padding-top: 20px;
+    font-weight: 600;
 }
 .header__prof{
     color: red;
@@ -53,10 +54,10 @@ li.header__nav{
     width: 60%;
     margin-right: 3rem;
 }
-.name{
-    padding-right: 4rem;
-}
 
+p.name{
+    width: 400px;
+}
 .owner_data{
     margin-top: 20px;
 }
@@ -159,9 +160,20 @@ ul.skills__list{
 /* Footer */
 
 .footer{
-    height: 40px;
+    height: 2rem;
     background-color: black;
+    position: relative;
+}
 
+.contacts__social_telegram{
+    position: absolute;
+    top: -0.5rem;
+    right: 20vw;
+}
+.contacts__social_git{
+    position: absolute;
+    top: -0.5rem;
+    right: 17vw;
 }
 .contacts__title{
     text-align: center;
