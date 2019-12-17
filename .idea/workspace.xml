@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90323875-b6ed-45d7-aa2f-4f44fdb05911" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <workItem from="1575524255102" duration="90000" />
       <workItem from="1576568089639" duration="2403000" />
       <workItem from="1576570627043" duration="1700000" />
-      <workItem from="1576580220432" duration="4767000" />
+      <workItem from="1576580220432" duration="5060000" />
     </task>
     <task id="LOCAL-00001" summary="gitinit">
       <created>1575296504244</created>
@@ -132,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576586038713</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="append msg2">
+      <created>1576586607615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576586607615</updated>
+    </task>
+    <task id="LOCAL-00008" summary="left">
+      <created>1576586715641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576586715641</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,16 +159,18 @@
     <MESSAGE value="background" />
     <MESSAGE value="final version" />
     <MESSAGE value="append msg" />
-    <option name="LAST_COMMIT_MESSAGE" value="append msg" />
+    <MESSAGE value="append msg2" />
+    <MESSAGE value="left" />
+    <option name="LAST_COMMIT_MESSAGE" value="left" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1576586607523">
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1576586715574">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1576586607523" />
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1576586616548">
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1576586715574" />
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1576586721686">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1576586616548" />
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1576586721686" />
   </component>
 </project>
