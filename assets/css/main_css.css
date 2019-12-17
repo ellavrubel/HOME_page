@@ -231,14 +231,10 @@ ul.skills__list{
     border: 1px solid #00d9ff;
     color: white;
     font-size: 0.8rem;
-    position: absolute;
-    top:50%;
-    left: 110%;
+
 
 }
-.contact-window{
-    position: relative;
-}
+
 input[type="text"]::-webkit-input-placeholder {
     font-style: italic;
     color: #b7b7b7;
