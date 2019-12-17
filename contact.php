@@ -6,7 +6,7 @@ if (!isset($_POST['name']) and !isset($_POST['email'])) {
 }
 
 // КЛЮЧИ
-define('SECRET_KEY', '6Ldr5ccUAAAAAC6DJSIPWWcCYgB1FYb-R3rdKV8k');
+/*define('SECRET_KEY', '6Ldr5ccUAAAAAC6DJSIPWWcCYgB1FYb-R3rdKV8k');
 
 //ОБРАБОТКА ЗАПРОСА
 //ПРОИЗВОДИМ ЗАПРОС НА GOOGLE СЕРВИС И ЗАПИСЫВАЕМ ОТВЕТ
@@ -16,7 +16,7 @@ $Return = getCaptcha($_POST['g-recaptcha-response']);
 if ($Return->success == false && $Return->score < 0.3) {
 //    echo "You are Robot";
     return false;
-}
+}*/
 
 $name = htmlspecialchars($_POST['name']);
 $email = htmlspecialchars($_POST['email']);
