@@ -1,14 +1,14 @@
-/* Specification */
+/* --- Specification ---*/
+
 body {
     font-family: 'Merriweather', serif;
     background-color: rgba(162, 162, 162, 0.27);
 }
- button{
+ button, img{
      display: block;
  }
 
-
-/* Header */
+/* ---Header ----*/
 
 .header__up{
     background-color: #000;
@@ -30,8 +30,16 @@ li.header__nav{
     text-align: center;
     font-size: 14px;
 }
+
+/* ---section Main -----*/
+
 .main{
-    padding-top: 10vh;
+    padding-top: 30vh;
+    background-image: url("../img/pattern.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
 }
 .header__text{
     text-align: center;
@@ -41,17 +49,8 @@ li.header__nav{
 .header__prof{
     color: red;
 }
-.header__picture {
-    background-image: url("../img/header.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 270px;
-}
 .my_photo{
-    display: block;
-    position: absolute;
-    top: -90px;
-    left:150px;
+    width: 50%;
 }
 .owner_data{
     margin-top: 20px;
@@ -201,9 +200,7 @@ ul.skills__list{
     margin-bottom: 3vh;
     resize: none;
 }
-.star{
-    color: red;
-}
+
 input[type="text"]::-webkit-input-placeholder {
     font-style: italic;
     color: #b7b7b7;
