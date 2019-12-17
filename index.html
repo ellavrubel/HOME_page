@@ -5,7 +5,8 @@
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <title>WEBELLA</title>
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Merriweather:400,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Merriweather:400,700,700i&display=swap"
+          rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -21,154 +22,177 @@
             <div class="container">
                 <div class="row">
                     <div class="col-2">
-                        <img alt="W"  class='header__logo img-fluid' src="assets/img/W_copy.png">
+                        <img alt="W" class='header__logo img-fluid' src="assets/img/W_copy.png">
                     </div>
 
-                <div class=" col-8 mr-auto">
-                    <ul class="header__nav d-flex flex-wrap flex-sm-nowrap">
-                        <li class="header__nav"><a href="http://webella.ru/">ГЛАВНАЯ</a></li>
-                        <li class="header__nav"><a href="#openModal">ОБО МНЕ</a>
-                            <div class="modalDialog" id="openModal">
-                                <div>
-                                    <a class="close" href="#close" title="Close">X</a>
-                                    <h6 class="skills__title">Интересы & Навыки</h6>
-                                    <div class="inter_skills d-flex justify-content-around">
-                                        <ul class="interests animated fadeInLeft">
-                                            <li>Computer Science</li>
-                                            <li>Programming</li>
-                                            <li>Javascript</li>
-                                            <li>jQuery</li>
-                                            <li>Linguistics</li>
-                                        </ul>
-                                        <ul class="skills__list animated fadeInLeft">
-                                            <li>HTML5</li>
-                                            <li>CSS/CSS3/CSS4</li>
-                                            <li>Bootstrap</li>
-                                            <li>English(B2)</li>
-                                            <li>Adobe Photoshop</li>
-                                            <li>Figma</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="header__nav"><a href="#openModal1">ПРОЕКТЫ</a>
-                            <div class="modalDialog" id="openModal1">
-                                <div>
-                                    <a class="close" href="#close" title="Close">X</a>
-                                    <h6 class="projects__title">Проекты</h6>
-                                         <div class="row justify-content-around proj-range">
-                                        <div class="col-4 proj-item">
-                                            <a href="/Lina_Project/" target="_blank"><img alt="Lina" class="img-fluid proj" src="assets/img/LinaProj.jpg"></a>
-                                        </div>
-                                        <div class="col-4 proj-item">
-                                            <a href="/photoshop_practice/" target="_blank"><img alt="Purple" class="img-fluid proj" src="assets/img/PurplePage.png"></a>
-                                        </div>
-                                        <div class="col-4 proj-item">
-                                            <a href="/Adaptive-Landing/" target="_blank"><img alt="Video" class="img-fluid proj" src="assets/img/video.jpg"></a>
+                    <div class=" col-8 mr-auto">
+                        <ul class="header__nav d-flex flex-wrap flex-sm-nowrap">
+                            <li class="header__nav"><a href="http://webella.ru/">ГЛАВНАЯ</a></li>
+                            <li class="header__nav"><a href="#openModal">ОБО МНЕ</a>
+                                <div class="modalDialog" id="openModal">
+                                    <div>
+                                        <a class="close" href="#close" title="Close">X</a>
+                                        <h6 class="skills__title">Интересы & Навыки</h6>
+                                        <div class="inter_skills d-flex justify-content-around">
+                                            <ul class="interests animated fadeInLeft">
+                                                <li>Computer Science</li>
+                                                <li>Programming</li>
+                                                <li>Javascript</li>
+                                                <li>jQuery</li>
+                                                <li>Linguistics</li>
+                                            </ul>
+                                            <ul class="skills__list animated fadeInLeft">
+                                                <li>HTML5</li>
+                                                <li>CSS/CSS3/CSS4</li>
+                                                <li>Bootstrap</li>
+                                                <li>English(B2)</li>
+                                                <li>Adobe Photoshop</li>
+                                                <li>Figma</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="header__nav"><a href="#openModal2">КОНТАКТЫ</a>
-                             <div class="modalDialog" id="openModal2">
-                                <div>
-                                    <a class="close" href="#close" title="Close">X</a>
-                                    <div class="row d-flex justify-content-between">
-                                    <div class="col col-md-6">
-                                        <form action="/" class="form" method="post">
-                                            <div class="form-row">
-                                                <div class="col">
-                                                    <label class="lable_name col-form-label-sm" for="NAME"></label>
-                                                    <input class="form-control form-control-sm animated fadeInLeft" id="NAME" name="name" placeholder="Имя/Название организации" required type="text">
-                                                </div>
+                            </li>
+                            <li class="header__nav"><a href="#openModal1">ПРОЕКТЫ</a>
+                                <div class="modalDialog" id="openModal1">
+                                    <div>
+                                        <a class="close" href="#close" title="Close">X</a>
+                                        <h6 class="projects__title">Проекты</h6>
+                                        <div class="row justify-content-around proj-range">
+                                            <div class="col-4 proj-item">
+                                                <a href="/Lina_Project/" target="_blank"><img alt="Lina"
+                                                                                              class="img-fluid proj"
+                                                                                              src="assets/img/LinaProj.jpg"></a>
                                             </div>
-                                            <div class="form-row">
-                                                <div class="col">
-                                                    <label class="lable_email col-form-label-sm" for = "EMAIL"></label>
-                                                    <input class="form-control form-control-sm animated fadeInLeft" id="EMAIL" name="email" placeholder="Введите электронный адрес" required type="email">
-                                                </div>
+                                            <div class="col-4 proj-item">
+                                                <a href="/photoshop_practice/" target="_blank"><img alt="Purple"
+                                                                                                    class="img-fluid proj"
+                                                                                                    src="assets/img/PurplePage.png"></a>
                                             </div>
-                                            <div class="form-row">
-                                                <div class="col">
-                                                    <label class="col-form-label-sm" for="MSG"></label>
-                                                    <textarea class="contact_message form-control form-control-sm animated fadeInLeft" id="MSG" name="msg"  placeholder="Оставьте свое сообщение" type="text"></textarea>
-                                                </div>
+                                            <div class="col-4 proj-item">
+                                                <a href="/Adaptive-Landing/" target="_blank"><img alt="Video"
+                                                                                                  class="img-fluid proj"
+                                                                                                  src="assets/img/video.jpg"></a>
                                             </div>
-
-                                            <input id="g-recaptcha-response" name="g-recaptcha-response" type="hidden">
-
-                                            <div class="contact__btn">
-                                                <button class="btn btn-outline-success animated fadeInLeft" id="sendmail" type="button">Отправить сообщение</button>
-                                            </div>
-                                        </form>
-                                        <div id="errorMess"></div>
-
-                                        <!--Script CAPTCHA -->
-
-<script src="https://www.google.com/recaptcha/api.js?render=6Ldr5ccUAAAAAAo1EkKX7urj5Dkvl14acauFluEB"></script>
-<script> grecaptcha.ready(function() {
-     grecaptcha.execute('6Ldr5ccUAAAAAAo1EkKX7urj5Dkvl14acauFluEB', {action: 'homepage'}).then(function(token) {
-     console.log(token);
-     document.getElementById('g-recaptcha-response').value=token;
-});
-});
-</script>
-                                        <!--Script CAPTCHA -->
-
+                                        </div>
                                     </div>
-                                        <div class="col col-md-6 d-flex justify-content-center align-items-center">
-                                            <div class="contacts-wrapper d-flex flex-column">
-                                            <div class="contacts__text">
-                                            <p class="animated fadeInRight">ellavrubel<span class="dog">@</span>yandex.ru</p>
-                                            </div>
-                                            <div class="footer__contacts d-flex justify-content-end">
-                                            <a class="contacts__social animated fadeInRight" href="https://t.me/EllaVrubel" target="_blank"><i class="fa fa-telegram"></i></a>
-                                            <a class="contacts__social animated fadeInRight" href="https://github.com/ellavrubel" target="_blank"><i class="fa fa-github"></i></a>
-                                            </div>
-                                            </div>
-                                         </div>
-                                     </div>
                                 </div>
-                             </div>
-                        </li>
-                    </ul>
+                            </li>
+                            <li class="header__nav"><a href="#openModal2">КОНТАКТЫ</a>
+                                <div class="modalDialog" id="openModal2">
+                                    <div>
+                                        <a class="close" href="#close" title="Close">X</a>
+                                        <div class="row d-flex justify-content-between">
+                                            <div class="col col-md-6">
+                                                <form action="/" class="form" method="post">
+                                                    <div class="form-row">
+                                                        <div class="col">
+                                                            <label class="lable_name col-form-label-sm"
+                                                                   for="NAME"></label>
+                                                            <input class="form-control form-control-sm animated fadeInLeft"
+                                                                   id="NAME" name="name"
+                                                                   placeholder="Имя/Название организации" required
+                                                                   type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="col">
+                                                            <label class="lable_email col-form-label-sm"
+                                                                   for="EMAIL"></label>
+                                                            <input class="form-control form-control-sm animated fadeInLeft"
+                                                                   id="EMAIL" name="email"
+                                                                   placeholder="Введите электронный адрес" required
+                                                                   type="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="col">
+                                                            <label class="col-form-label-sm" for="MSG"></label>
+                                                            <textarea
+                                                                    class="contact_message form-control form-control-sm animated fadeInLeft"
+                                                                    id="MSG" name="msg"
+                                                                    placeholder="Оставьте свое сообщение"
+                                                                    type="text"></textarea>
+                                                        </div>
+                                                    </div>
+
+                                                    <input id="g-recaptcha-response" name="g-recaptcha-response"
+                                                           type="hidden">
+
+                                                    <div class="contact__btn">
+                                                        <button class="btn btn-outline-success animated fadeInLeft"
+                                                                id="sendmail" type="button">Отправить сообщение
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                                <div id="errorMess"></div>
+
+                                                <!--Script CAPTCHA -->
+                                                <script src="https://www.google.com/recaptcha/api.js?render=6Ldr5ccUAAAAAAo1EkKX7urj5Dkvl14acauFluEB"></script>
+                                                <script> grecaptcha.ready(function () {
+                                                    grecaptcha.execute('6Ldr5ccUAAAAAAo1EkKX7urj5Dkvl14acauFluEB', {action: 'homepage'}).then(function (token) {
+                                                        document.getElementById('g-recaptcha-response').value = token;
+                                                    });
+                                                });
+                                                </script>
+                                                <!--Script CAPTCHA -->
+
+                                            </div>
+                                            <div class="col col-md-6 d-flex justify-content-center align-items-center">
+                                                <div class="contacts-wrapper d-flex flex-column">
+                                                    <div class="contacts__text">
+                                                        <p class="animated fadeInRight">ellavrubel<span
+                                                                class="dog">@</span>yandex.ru</p>
+                                                    </div>
+                                                    <div class="footer__contacts d-flex justify-content-end">
+                                                        <a class="contacts__social animated fadeInRight"
+                                                           href="https://t.me/EllaVrubel" target="_blank"><i
+                                                                class="fa fa-telegram"></i></a>
+                                                        <a class="contacts__social animated fadeInRight"
+                                                           href="https://github.com/ellavrubel" target="_blank"><i
+                                                                class="fa fa-github"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-             </div>
-          </div>
-       </div>
-   </div>
-<div class="container my-discription">
-    <div class="row justify-content-lg-center">
-        <div class="col-7 m-auto">
-            <p class="header__text animated fadeInRight">
-                 Добро пожаловать на страницу!<br>
-                Моё занятие - <span class="header__prof">профессиональная HTML- верстка WEB - страниц с применением стилей любой степени индивидуальности</span>
-            </p>
+            </div>
         </div>
     </div>
-</div>
-   <div class="header__picture container"></div>
-    <div class="container">
-        <div class="row">
-         <div class="col-2">
-             <img alt="It's ME" class="my_photo img-fluid" src="assets/img/me.png">
-          </div>
-            <div class="offset-1 col-6">
-            <div class="owner_data">
-                <p class="name">
-                Ella Vrubel
-                 </p>
-                 <p class="occupation">
-                Freelance Html-верстальщик
+    <div class="container my-discription">
+        <div class="row justify-content-lg-center">
+            <div class="col-7 m-auto">
+                <p class="header__text animated fadeInRight">
+                    Добро пожаловать на страницу!<br>
+                    Моё занятие - <span class="header__prof">профессиональная HTML- верстка WEB - страниц с применением стилей любой степени индивидуальности</span>
                 </p>
             </div>
-          </div>
-       </div>
-  </div>
+        </div>
+    </div>
+    <div class="header__picture container"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img alt="It's ME" class="my_photo img-fluid" src="assets/img/me.png">
+            </div>
+            <div class="offset-1 col-6">
+                <div class="owner_data">
+                    <p class="name">
+                        Ella Vrubel
+                    </p>
+                    <p class="occupation">
+                        Freelance Html-верстальщик
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
