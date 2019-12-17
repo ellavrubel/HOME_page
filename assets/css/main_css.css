@@ -23,16 +23,15 @@ li.header__nav{
     margin-top: 5px;
     border-right: 1px solid white;
 }
-.header__logo img {
-    display: block;
-    position: absolute;
-    top: 0;
-}
+
 .header__nav a{
     color: white;
     font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
     font-size: 14px;
+}
+.main{
+    padding-top: 10vh;
 }
 .header__text{
     text-align: center;
@@ -47,8 +46,6 @@ li.header__nav{
     background-position: center center;
     background-repeat: no-repeat;
     height: 270px;
-
-    position: relative;
 }
 .my_photo{
     display: block;
