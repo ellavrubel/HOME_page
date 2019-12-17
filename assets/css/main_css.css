@@ -7,6 +7,10 @@ body {
  button, img{
      display: block;
  }
+label{
+    visibility: hidden;
+}
+
 
 /* ---Header ----*/
 
@@ -197,7 +201,7 @@ ul.skills__list{
     margin-right: 20px;
 }
 .dog{
-    color: red;
+    color: #00d9ff;
 }
 .contacts-wrapper{
     margin-bottom: 9rem;
@@ -217,6 +221,15 @@ ul.skills__list{
     height: 15vh;
     margin-bottom: 3vh;
     resize: none;
+}
+.lable_name, .lable_email, .lable_msg{
+    font-size: .77rem;
+    color: red;
+}
+#status{
+    margin: 1rem auto;
+    border: 1px solid #00d9ff;
+
 }
 
 input[type="text"]::-webkit-input-placeholder {
@@ -287,8 +300,14 @@ textarea[type="text"]::placeholder {
     color: #b7b7b7;
     font-size: calc(0.8rem + 0.1vh);
 }
-
-
+.btn-outline-success {
+    color: #00d9ff;
+    border-color: #00d9ff;
+}
+.btn-outline-success:hover{
+    color: white;
+    background-color: #00d9ff;
+}
 
 
 

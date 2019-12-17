@@ -6,19 +6,19 @@ $(document).ready(function () {
         var message = $('#MSG').val().trim();
 
         if (name === "") {
-            $('#errorMess').text('Введите имя/наименование организации');
+            $('.lable_name').css({'visibility':'visible'});
 
             return false;
         } else if (email === "") {
-            $('#errorMess').text('Введите email');
+            $('.lable_email').css({'visibility':'visible'});
 
             return false;
         } else if (message.length < 5) {
-            $('#errorMess').text('Напишите чуть больше по сути вашего обращения');
+            $('.lable_msg').css({'visibility':'visible'});
             return false;
         }
 
-        $('#errorMess').text('');
+        $('.lable_name, .lable_email, .lable_msg').css({'visibility':'hidden'});
 
         $.ajax({
 
@@ -32,12 +32,13 @@ $(document).ready(function () {
             },
             success: function (data) {
                 if (!data) {
-                    message =
-                    $('#status').append(message);
-                    // alert("Ошибка. Сообщение не отправлено! Проверьте правильность введенных данных");
+                    var errorMessage = 'Сервер не отвечает. Сообщение не отправлено! Попробуйте связаться со мной не через сайт.'
+                    $('#status').append(errorMessage);
+
                 } else {
                     $('.form').trigger('reset');
-                    // alert('Спасибо! Я внимательно ознакомлюсь с предложением и в ближайшее время свяжусь с вами.');
+                    var successMessage = 'Спасибо! Я внимательно ознакомлюсь с предложением и в ближайшее время свяжусь с вами.';
+                    $('#status').append(successMessage);
                 }
 
                 $('#sendmail').prop('disabled', false);
