@@ -128,8 +128,9 @@ p.name{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.skills__list ul{
+ul.skills__list {
     list-style-type: circle;
+    font-size: calc(0.5rem + 0.41vw);
 }
 
 .skills__title{
