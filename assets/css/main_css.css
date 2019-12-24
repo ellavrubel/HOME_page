@@ -230,6 +230,7 @@ ul.skills__list{
 #status{
     margin: 1rem auto;
     border: 1px solid #00d9ff;
+    color: white;
     font-size: 0.88rem;
     padding: 1.3rem;
     visibility: hidden;
