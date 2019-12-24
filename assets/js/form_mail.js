@@ -33,13 +33,12 @@ $(document).ready(function () {
             success: function (data) {
                 if (!data) {
                     var errorMessage = 'Сервер не отвечает. Сообщение не отправлено! Попробуйте связаться со мной не через сайт.';
-                    // $('#status').append(errorMessage).css({'visibility':'visible'});
+                    $('#status').append(errorMessage).css({'visibility':'visible'});
 
                 } else {
                     $('.form').trigger('reset');
-                    var successMessage = 'Сервер не отвечает. Сообщение не отправлено! Попробуйте связаться со мной не через сайт.';
-                        // 'Спасибо! Я внимательно ознакомлюсь с предложением и в ближайшее время свяжусь с вами.';
-                    // $('#status').append(successMessage).css({'visibility':'visible'});
+                    var successMessage = 'Спасибо! Я внимательно ознакомлюсь с предложением и в ближайшее время свяжусь с вами.';
+                     $('#status').append(successMessage).css({'visibility':'visible'});
                 }
 
                 $('#sendmail').prop('disabled', false);
