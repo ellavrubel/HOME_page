@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90323875-b6ed-45d7-aa2f-4f44fdb05911" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/restaurant.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -94,7 +90,10 @@
       <workItem from="1576580220432" duration="10032000" />
       <workItem from="1576648427298" duration="803000" />
       <workItem from="1577196408324" duration="3373000" />
-      <workItem from="1579848171828" duration="3089000" />
+      <workItem from="1579848171828" duration="3839000" />
+      <workItem from="1579852058864" duration="9000" />
+      <workItem from="1580057472505" duration="970000" />
+      <workItem from="1580724964024" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="gitinit">
       <created>1575296504244</created>
@@ -250,7 +249,35 @@
       <option name="project" value="LOCAL" />
       <updated>1577199479657</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add Restaurant">
+      <created>1579851469016</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1579851469016</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add Restaurant">
+      <created>1580057643048</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1580057643048</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add Restaurant">
+      <created>1580057801571</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1580057801571</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add Restaurant">
+      <created>1580725197498</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1580725197498</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,20 +303,21 @@
     <MESSAGE value="vintage_bikes proj" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="form mail" />
-    <option name="LAST_COMMIT_MESSAGE" value="form mail" />
+    <MESSAGE value="add Restaurant" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Restaurant" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1577199479591">
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1580725197410">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1577199479591" />
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1580725197410" />
     <state x="737" y="253" width="424" height="509" key="FileChooserDialogImpl" timestamp="1579849032216">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="737" y="253" width="424" height="509" key="FileChooserDialogImpl/0.0.1920.1048@0.0.1920.1048" timestamp="1579849032216" />
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1577199345590">
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1580725208145">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1577199345590" />
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1580725208145" />
   </component>
 </project>
