@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -7,6 +7,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Merriweather:400,700,700i&display=swap"
           rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -23,40 +24,41 @@
                 <div class="row">
                      <div class=" col col-md-8 m-auto">
                         <ul class="header__nav d-flex flex-wrap flex-sm-nowrap">
-                            <li class="header__nav"><a href="http://webella.ru/">ГЛАВНАЯ</a></li>
-                            <li class="header__nav"><a href="#openModal">ОБО МНЕ</a>
+                            <li class="header__nav"><a href="http://webella.ru/">MAIN</a></li>
+                            <li class="header__nav"><a href="#openModal">SKILLS</a>
                                 <div class="modalDialog" id="openModal">
                                     <div>
                                         <a class="close" href="#close" title="Close">X</a>
-                                        <h6 class="skills__title">Интересы & Навыки</h6>
+                                        <h6 class="skills__title animated zoomIn">Skills & Interests</h6>
                                         <div class="inter_skills d-flex justify-content-around">
-                                            <ul class="interests animated fadeInLeft">
-                                                <li>Computer Science</li>
-                                                <li>Programming</li>
-                                                <li>Javascript</li>
-                                                <li>Linguistics</li>
-                                            </ul>
-                                            <ul class="skills__list animated fadeInLeft">
+                                            <ul class="interests animated zoomIn delay-1s">
                                                 <li>HTML5</li>
                                                 <li>CSS/CSS3/CSS4</li>
+                                                <li>Bootstrap</li>
                                                 <li>SCSS/SASS</li>
                                                 <li>Gulp.js</li>
                                                 <li>jQuery</li>
-                                                <li>Bootstrap</li>
+                                                <li>WordPress</li>
                                                 <li>Adobe Photoshop</li>
                                                 <li>Figma</li>
                                                 <li>English(B2)</li>
+
+                                            </ul>
+
+                                            <ul class="skills__list animated zoomIn delay-2s">
+                                                <li>Javascript</li>
+                                                <li>Node.js</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li class="header__nav"><a href="#openModal1">ПРОЕКТЫ</a>
+                            <li class="header__nav"><a href="#openModal1">PROJECTS</a>
                                 <div class="modalDialog modalDialog__Proj" id="openModal1">
                                     <div>
                                         <a class="close" href="#close" title="Close">X</a>
-                                        <h6 class="projects__title">Последние проекты</h6>
-                                        <div class="row justify-content-center proj-range">
+                                        <h6 class="projects__title animated zoomIn">Latest Projects</h6>
+                                        <div class="row justify-content-center proj-range animated zoomIn delay-1s">
                                             <div class="col-4 proj-item">
                                                 <a href="projects/Lina_Project/" target="_blank"><img alt="Lina"
                                                                                               class="proj proj__Lina"
@@ -72,7 +74,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="header__nav"><a href="#openModal2">КОНТАКТЫ</a>
+                            <li class="header__nav"><a href="#openModal2">CONTACTS</a>
                                 <div class="modalDialog" id="openModal2">
                                     <div>
                                         <a class="close" href="#close" title="Close">X</a>
@@ -82,30 +84,30 @@
                                                     <div class="form-row">
                                                         <div class="col">
                                                             <label class="lable_name col-form-label-sm"
-                                                                   for="NAME">Введите имя/наименование организации</label>
+                                                                   for="NAME">Name/Name of the Company</label>
                                                             <input class="form-control form-control-sm animated fadeInLeft"
                                                                    id="NAME" name="name"
-                                                                   placeholder="Имя/Название организации" required
+                                                                   placeholder="Name/Name of the Company" required
                                                                    type="text">
                                                         </div>
                                                     </div>
                                                     <div class="form-row">
                                                         <div class="col">
                                                             <label class="lable_email col-form-label-sm"
-                                                                   for="EMAIL">Введите email</label>
+                                                                   for="EMAIL">Email</label>
                                                             <input class="form-control form-control-sm animated fadeInLeft"
                                                                    id="EMAIL" name="email"
-                                                                   placeholder="Введите электронный адрес" required
+                                                                   placeholder="Place your email here" required
                                                                    type="email">
                                                         </div>
                                                     </div>
                                                     <div class="form-row">
                                                         <div class="col">
-                                                            <label class="lable_msg col-form-label-sm" for="MSG">Напишите чуть больше по сути вашего обращения</label>
+                                                            <label class="lable_msg col-form-label-sm" for="MSG">Write a bit more about your proposal</label>
                                                             <textarea
                                                                     class="contact_message form-control form-control-sm animated fadeInLeft"
                                                                     id="MSG" name="msg"
-                                                                    placeholder="Оставьте свое сообщение"
+                                                                    placeholder="Place your message here"
                                                                     type="text"></textarea>
                                                         </div>
                                                     </div>
@@ -115,7 +117,7 @@
 
                                                     <div class="contact__btn">
                                                         <button class="btn btn-outline-success animated fadeInLeft"
-                                                                id="sendmail" type="button">Отправить сообщение
+                                                                id="sendmail" type="button">Send a message
                                                         </button>
                                                     </div>
                                                 </form>
@@ -159,18 +161,22 @@
             <div class="col col-md-10">
                 <div class="description d-flex flex-column justify-content-center align-items-center">
                      <div class="photo d-flex justify-content-between align-items-center flex-wrap flex-md-nowrap">
-                        <img alt="It's ME" class="my_photo img-fluid animated fadeInLeft" src="assets/img/me.png">
+                        <img alt="It's ME" class="my_photo img-fluid animated fadeInLeft" src="assets/img/me2.jpg">
                              <p class="name animated fadeInRight">
                         <span class="nicname"> Ella Vrubel</span><br>
-                        <span class="occupation">Freelance Html-верстальщик</span>
+                        <span class="occupation">Freelance Html Coder</span>
                              </p>
                       </div>
 
                      <div class="hello">
-                             <p class="header__text animated fadeInRight">
-                    Добро пожаловать на страницу!<br>
-                    Моё занятие - профессиональная <span class="header__prof">верстка WEB - страниц </span>с применением стилей любой степени индивидуальности
-                             </p>
+                             <div class="header__text animated fadeInRight">
+                    <p>
+                        Professional <span class="header__prof"> HTML/CSS/Js WEB page-proofs </span>
+                    </p>
+                    <p>
+                        Individual approach
+                    </p>
+                             </div>
                     </div>
                 </div>
              </div>
@@ -191,6 +197,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="assets/js/form_mail.js"></script>
+<script src="assets/js/script.js"></script>
 
 </body>
 </html>

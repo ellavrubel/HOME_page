@@ -1,7 +1,25 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;}
+input, button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{padding: 0; margin: 0;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+
+
 /* --- Specification ---*/
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
     background-color: rgba(162, 162, 162, 0.27);
 }
  button, img{
@@ -30,7 +48,7 @@ li.header__nav{
 
 .header__nav a{
     color: white;
-    font-family: 'Merriweather Sans', sans-serif;
+
     text-align: center;
     font-size: 14px;
 }
@@ -46,7 +64,7 @@ li.header__nav{
 
 }
 .header__text{
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     padding-top: 20px;
     font-weight: 600;
@@ -95,7 +113,7 @@ p.name{
     width: 50rem;
     position: relative;
     margin: 10% auto;
-    padding: 5px 20px 13px 20px;
+    padding: 55px 100px;
     border-radius: 10px;
     background: #fff;
     background: -moz-linear-gradient(#fff, #999);
@@ -103,8 +121,8 @@ p.name{
     background: -o-linear-gradient(#fff, #999);
 }
 .modalDialog__Proj > div{
-    width: 30rem;
-    height: 20rem;
+    width: 42rem;
+    height: 29rem;
 }
 .close {
     background: #606061;
@@ -132,16 +150,24 @@ p.name{
 .inter_skills{
     padding-top: 50px;
     padding-bottom: 50px;
+    line-height: 2;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
 }
+
 ul.skills__list {
     list-style-type: circle;
     font-size: calc(0.5rem + 0.41vw);
 }
 
-.skills__title{
+h6.skills__title{
     text-align: center;
     font-weight: 700;
     padding-top: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
 }
 ul.skills__list{
     padding: 0;
@@ -157,7 +183,10 @@ ul.skills__list{
     text-align: center;
     padding-top: 1.5rem;
     margin-bottom: 2rem;
-    font-weight: bold;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
 }
 .proj{
     display: block;
