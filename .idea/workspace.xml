@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90323875-b6ed-45d7-aa2f-4f44fdb05911" name="Default Changelist" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/assets/img/BW.png" afterDir="false" />
+    <list default="true" id="90323875-b6ed-45d7-aa2f-4f44fdb05911" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main_css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -104,7 +103,7 @@
       <workItem from="1585636837935" duration="1554000" />
       <workItem from="1586265579263" duration="6143000" />
       <workItem from="1586271895415" duration="1774000" />
-      <workItem from="1586326457534" duration="3304000" />
+      <workItem from="1586326457534" duration="5102000" />
     </task>
     <task id="LOCAL-00001" summary="gitinit">
       <created>1575296504244</created>
@@ -393,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586326979710</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="photo">
+      <created>1586343643282</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1586343643282</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,20 +430,20 @@
     <MESSAGE value="surf_travel added" />
     <MESSAGE value="skills changed" />
     <MESSAGE value="gitignore" />
-    <MESSAGE value="photo" />
     <MESSAGE value="freelancehunt" />
     <MESSAGE value="HOME" />
-    <option name="LAST_COMMIT_MESSAGE" value="HOME" />
+    <MESSAGE value="photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="580" y="316" width="749" height="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586326811573">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="580" y="316" width="749" height="386" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1586326811573" />
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1586326979608">
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1586343643101">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1586326979608" />
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1586343643101" />
     <state x="737" y="253" width="424" height="509" key="FileChooserDialogImpl" timestamp="1586266781877">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
@@ -446,9 +452,9 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="449" y="146" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1586266550936" />
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1586326983674">
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1586343647863">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1586326983674" />
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1586343647863" />
   </component>
 </project>
