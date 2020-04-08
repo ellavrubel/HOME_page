@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90323875-b6ed-45d7-aa2f-4f44fdb05911" name="Default Changelist" comment="">
+    <list default="true" id="90323875-b6ed-45d7-aa2f-4f44fdb05911" name="Default Changelist" comment="gitignore">
+      <change afterPath="$PROJECT_DIR$/assets/img/BW.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/PurplePage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/W_copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/footer2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/restaurant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/video.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,21 +42,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wp_house" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\om\Desktop\new\accets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="C:\Users\om\Desktop\HOME_page\assets\img" />
       <recent name="C:\Users\om\Desktop\new\css" />
       <recent name="C:\Users\om\Desktop\new\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\om\Desktop\new\accets" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -109,7 +102,9 @@
       <workItem from="1581321187275" duration="279000" />
       <workItem from="1585584243336" duration="1968000" />
       <workItem from="1585636837935" duration="1554000" />
-      <workItem from="1586265579263" duration="6050000" />
+      <workItem from="1586265579263" duration="6143000" />
+      <workItem from="1586271895415" duration="1774000" />
+      <workItem from="1586326457534" duration="3304000" />
     </task>
     <task id="LOCAL-00001" summary="gitinit">
       <created>1575296504244</created>
@@ -349,7 +344,56 @@
       <option name="project" value="LOCAL" />
       <updated>1585637684190</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="photo">
+      <created>1586271695550</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1586271695550</updated>
+    </task>
+    <task id="LOCAL-00036" summary="photo">
+      <created>1586271724286</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1586271724286</updated>
+    </task>
+    <task id="LOCAL-00037" summary="photo">
+      <created>1586272708707</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1586272708707</updated>
+    </task>
+    <task id="LOCAL-00038" summary="gitignore">
+      <created>1586272739410</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1586272739410</updated>
+    </task>
+    <task id="LOCAL-00039" summary="photo">
+      <created>1586272945136</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1586272945136</updated>
+    </task>
+    <task id="LOCAL-00040" summary="freelancehunt">
+      <created>1586326865466</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1586326865466</updated>
+    </task>
+    <task id="LOCAL-00041" summary="HOME">
+      <created>1586326979710</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1586326979710</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,8 +402,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="gitinit" />
-    <MESSAGE value="footer photoshop img" />
     <MESSAGE value="footer2 img" />
     <MESSAGE value="background" />
     <MESSAGE value="final version" />
@@ -373,7 +415,6 @@
     <MESSAGE value="visibility2" />
     <MESSAGE value="@media" />
     <MESSAGE value="vintage_bikes proj" />
-    <MESSAGE value="gitignore" />
     <MESSAGE value="form mail" />
     <MESSAGE value="add Restaurant" />
     <MESSAGE value="readme" />
@@ -382,13 +423,21 @@
     <MESSAGE value="added /projects" />
     <MESSAGE value="surf_travel added" />
     <MESSAGE value="skills changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="skills changed" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="photo" />
+    <MESSAGE value="freelancehunt" />
+    <MESSAGE value="HOME" />
+    <option name="LAST_COMMIT_MESSAGE" value="HOME" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1586271706288">
+    <state x="580" y="316" width="749" height="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586326811573">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1586271706288" />
+    <state x="580" y="316" width="749" height="386" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1586326811573" />
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1586326979608">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1586326979608" />
     <state x="737" y="253" width="424" height="509" key="FileChooserDialogImpl" timestamp="1586266781877">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
@@ -397,9 +446,9 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="449" y="146" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1586266550936" />
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1585637691685">
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1586326983674">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1585637691685" />
+    <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1586326983674" />
   </component>
 </project>
