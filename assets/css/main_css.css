@@ -70,7 +70,7 @@ li.header__nav{
     background-image: url("../img/pattern.png");
     background-position: center center;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 92vh;
 
 }
 .header__text{
@@ -97,8 +97,7 @@ li.header__nav{
     flex: 0 0 60%;
 }
 p.name{
-    /*width: 400px;*/
-    padding-top: 166px;
+    padding: 166px 0 30px;
 }
 .owner_data{
     margin-top: 20px;
@@ -226,7 +225,7 @@ img.proj__Rest {
 /* Footer */
 
 .footer{
-    height: 2rem;
+    height: 2.2rem;
     background-color: black;
     position: relative;
 }
@@ -377,6 +376,50 @@ textarea[type="text"]::placeholder {
 
 /* @Media */
 
+@media screen and (width: 1024px) and (height: 1366px) {
+    .main {
+        height: 87vh;
+        padding-top: 0;
+    }
+    .my_photo {
+        width: 70%;
+    }
+    .header__up {
+        height: 100px;
+    }
+    li.header__nav {
+        margin-top: 32px;
+    }
+    li.header__nav a {
+        font-size: 27px;
+    }
+    .footer {
+        height: 5rem;
+    }
+    p.name {
+        padding: 87px 0 30px;
+    }
+    .text-wrapper {
+        font-size: 32px;
+        flex: 0 0 70%;
+    }
+    .contacts__social i {
+        font-size: 65px;
+    }
+    .contacts__social_telegram {
+        right: 25vw;
+    }
+
+    .modalDialog > div {
+        padding: 20px;
+    }
+
+    .interests li, .skills__list li {
+        font-size: 31px;
+    }
+
+}
+
 @media screen and (max-width: 992px) {
 
     .header__text {
@@ -384,9 +427,6 @@ textarea[type="text"]::placeholder {
     }
     .contacts__social_git{
         right: 15vw;
-    }
-    .my_photo{
-        width: 50%;
     }
     .modalDialog > div{
         width: 780px;
@@ -399,10 +439,19 @@ textarea[type="text"]::placeholder {
     }
     .my_photo{
         padding-top: 0;
+
     }
     .interests li, .skills__list li {
         font-size: 1rem;
     }
+    .professional{
+        margin: 0;
+    }
+
+    .header__prof{
+        white-space: pre;
+    }
+
 }
 @media screen and (max-width: 768px) {
 
@@ -422,19 +471,50 @@ textarea[type="text"]::placeholder {
         right: 13vw;
 
     }
+
     p.name {
         padding-top: 58px;
     }
-    .text-wrapper{
+
+    .text-wrapper {
         flex: 0 0 80%;
     }
+
     .modalDialog > div {
         width: 645px;
         padding: 15px 50px;
     }
+
     .interests li, .skills__list li {
         text-align: left;
     }
+    .photo {
+        flex-direction: column;
+    }
+}
+
+    @media screen and (width: 768px) and (height: 1024px){
+
+        .main {
+            height: 89vh;
+        }
+        .my_photo {
+            width: 70%;
+        }
+        .header__up {
+            height: 66px;
+        }
+        li.header__nav {
+            margin-top: 20px;
+        }
+        li.header__nav a {
+            font-size: 18px;
+        }
+        .footer {
+            height: 3rem;
+        }
+
+}
 
     @media screen and (max-width: 672px){
 
@@ -512,13 +592,44 @@ textarea[type="text"]::placeholder {
         .main {
             height: 82vh;
         }
-    }}
+    }
+
+@media screen and (width: 414px) and (height: 736px){
+    .main {
+        height: 85vh;
+        padding-top: 9vh;
+    }
+}
+
+@media screen and (width: 411px) and (height: 823px){
+    .main {
+        height: 86vh;
+        padding-top: 14vh;
+    }
+    .my_photo{
+        width: 70%;
+    }
+    .text-wrapper{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (width: 411px) and (height: 731px){
+    .main {
+        height: 85vh;
+    }
+}
 
     @media screen and (max-width: 390px) {
 
         .header__menu{
-            display: none;
-            transform: translateY(-100%);
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100vh;
+            transition: all 1s ease-in-out;
         }
 
         .menu__button-wrapper{
@@ -535,14 +646,56 @@ textarea[type="text"]::placeholder {
             color: #000;
         }
         .header__menu.active{
-            display: block;
+            opacity: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100vh;
+            z-index: 50;
+            background-color: rgba(0, 0, 0, 0.8);
+            transition: all 1s ease-in-out;
         }
 
+        ul.header__nav{
+            flex-direction: column;
+            margin-top: 195px;
+        }
 
+        li.header__nav a {
+            font-size: 18px;
+        }
 
-
+        .modalDialog > div {
+            width: 280px;
+            padding: 20px;
+        }
     }
 
+@media screen and (width: 375px) and (height: 812px){
+    .main {
+        height: 87vh;
+    }
+}
+
+        @media screen and (width: 375px) and (height: 667px){
+            .main {
+                height: 84vh;
+            }
+}
+
+        @media screen and (width: 361px){
+            .main {
+                height: 83vh;
+            }
+        }
+
+        @media screen and (width: 320px) and (height: 568px){
+    .main {
+        height: 81vh;
+        padding-top: 10vh;
+    }
+}
 
 
 

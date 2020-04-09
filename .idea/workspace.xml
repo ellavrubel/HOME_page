@@ -106,7 +106,8 @@
       <workItem from="1586271895415" duration="1774000" />
       <workItem from="1586326457534" duration="5114000" />
       <workItem from="1586362249484" duration="25000" />
-      <workItem from="1586413579770" duration="9852000" />
+      <workItem from="1586413579770" duration="10029000" />
+      <workItem from="1586436288916" duration="7219000" />
     </task>
     <task id="LOCAL-00001" summary="gitinit">
       <created>1575296504244</created>
@@ -416,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586423872804</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="menu-gamb">
+      <created>1586436200604</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1586436200604</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +433,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="final version" />
     <MESSAGE value="append msg" />
     <MESSAGE value="append msg2" />
     <MESSAGE value="left" />
@@ -450,17 +457,18 @@
     <MESSAGE value="photo" />
     <MESSAGE value="fonts" />
     <MESSAGE value="adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaptive" />
+    <MESSAGE value="menu-gamb" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu-gamb" />
   </component>
   <component name="WindowStateProjectService">
     <state x="580" y="316" width="749" height="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586326811573">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="580" y="316" width="749" height="386" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1586326811573" />
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1586423872665">
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2" timestamp="1586436200412">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1586423872665" />
+    <state x="525" y="205" width="860" height="608" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1586436200412" />
     <state x="737" y="253" width="424" height="509" key="FileChooserDialogImpl" timestamp="1586266781877">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
@@ -473,10 +481,10 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="665" y="240" width="580" height="537" key="MultipleFileMergeDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1586362268715" />
-    <state x="449" y="146" key="SettingsEditor" timestamp="1586266550936">
+    <state x="449" y="146" key="SettingsEditor" timestamp="1586436304514">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="449" y="146" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1586266550936" />
+    <state x="449" y="146" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1586436304514" />
     <state x="555" y="247" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1586343647863">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>

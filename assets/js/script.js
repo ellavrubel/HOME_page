@@ -5,7 +5,7 @@ $(document).ready(function () {
     e.preventDefault();
 
     $('.header__menu').toggleClass('active');
-    // $('body').toggleClass('lock');
+    $('body').toggleClass('lock');
 
   })
 
