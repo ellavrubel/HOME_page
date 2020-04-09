@@ -30,6 +30,14 @@ body {
 label{
     visibility: hidden;
 }
+.menu__button-wrapper{
+    display: none;
+}
+
+
+body.lock{
+    overflow: hidden;
+}
 
 
 /* ---Header ----*/
@@ -78,13 +86,19 @@ li.header__nav{
 .my_photo{
     width: 60%;
     margin-right: 3rem;
+    padding-top: 163px;
 }
 .hello{
     margin-top: 2rem;
 }
 
+.text-wrapper{
+    font-size: 25px;
+    flex: 0 0 60%;
+}
 p.name{
-    width: 400px;
+    /*width: 400px;*/
+    padding-top: 166px;
 }
 .owner_data{
     margin-top: 20px;
@@ -375,13 +389,19 @@ textarea[type="text"]::placeholder {
         width: 50%;
     }
     .modalDialog > div{
-        width: 500px;
+        width: 780px;
     }
     .email-text{
         font-size: 0.8rem;
     }
     li.header__nav a {
         font-size: 12px;
+    }
+    .my_photo{
+        padding-top: 0;
+    }
+    .interests li, .skills__list li {
+        font-size: 1rem;
     }
 }
 @media screen and (max-width: 768px) {
@@ -402,15 +422,47 @@ textarea[type="text"]::placeholder {
         right: 13vw;
 
     }
+    p.name {
+        padding-top: 58px;
+    }
+    .text-wrapper{
+        flex: 0 0 80%;
+    }
+    .modalDialog > div {
+        width: 645px;
+        padding: 15px 50px;
+    }
+    .interests li, .skills__list li {
+        text-align: left;
+    }
+
+    @media screen and (max-width: 672px){
+
+    .contacts{
+        display: none;
+    }
+    .contacts-wrapper {
+        margin-bottom: 2rem;
+    }
+        .modalDialog > div {
+            width: 378px;
+        }
+        .modalDialog__Proj > div {
+            height: 19rem;
+        }
+        h6.skills__title {
+            font-size: 1rem;
+        }
+        .interests li, .skills__list li{
+            font-size: .8rem;
+        }
+
+    }
 
     @media screen and (max-width: 576px) {
 
         .hello {
             width: 80%;
-        }
-        .contacts__text p {
-            letter-spacing: 0;
-            margin-left: 20px;
         }
         .my_photo {
             width: 30%;
@@ -418,14 +470,15 @@ textarea[type="text"]::placeholder {
         }
         p.name {
             width: 250px;
+            padding-top: 30px;
         }
 
-        .nicname {
-            padding-left: 40%;
+        .main {
+            height: 87vh;
         }
 
     }
-    @media screen and (min-width: 320px) and (max-width: 470px) {
+    @media screen and (max-width: 470px) {
         .header__up {
             height: 5rem;
         }
@@ -436,30 +489,53 @@ textarea[type="text"]::placeholder {
 
         .my_photo {
             width: 30%;
-            margin: 0 auto;
+            margin-left: 40px;
         }
 
         .main {
-            padding-top: 4vh;
+            padding-top: 3vh;
         }
 
         p.name {
             width: 250px;
         }
 
-        .nicname {
-            padding-left: 40%;
-        }
-
-        .occupation {
-            padding-left: 2%;
-        }
-
         .contacts__social_git {
             right: 10vw;
         }
+        li.header__nav {
+            margin-top: 22px;
+        }
+        .text-wrapper {
+            font-size: 19px;
+        }
+        .main {
+            height: 82vh;
+        }
     }}
 
+    @media screen and (max-width: 390px) {
+
+
+
+        .menu__button-wrapper{
+            display: block;
+            position: absolute;
+            top: 0; right: 0;
+            z-index: 10;
+        }
+        .menu__button{
+            width: 50px;
+            height: 5rem;
+            letter-spacing: 1px;
+            background: rgb(255, 0, 0);
+            color: #000;
+
+        }
+
+
+
+    }
 
 
 
