@@ -516,7 +516,10 @@ textarea[type="text"]::placeholder {
 
     @media screen and (max-width: 390px) {
 
-
+        .header__menu{
+            display: none;
+            transform: translateY(-100%);
+        }
 
         .menu__button-wrapper{
             display: block;
@@ -530,8 +533,11 @@ textarea[type="text"]::placeholder {
             letter-spacing: 1px;
             background: rgb(255, 0, 0);
             color: #000;
-
         }
+        .header__menu.active{
+            display: block;
+        }
+
 
 
 
