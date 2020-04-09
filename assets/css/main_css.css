@@ -80,7 +80,8 @@ span.header__prof{
     background-color: rgba(0, 0, 0, 0.77);
     border-radius: 30px;
     color: red;
-    padding: .5rem;
+    font-weight: 400;
+    padding: .8rem;
     display: inline-block;
     margin: 20px;
 }
