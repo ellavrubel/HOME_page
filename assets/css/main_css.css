@@ -20,9 +20,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
 
 body {
     font-family: 'Oswald', sans-serif;
-
-    /*font-family: 'Merriweather Sans', sans-serif;*/
-    background-color: rgba(162, 162, 162, 0.27);
+    background-color: rgb(162, 162, 162);
 }
  button, img{
      display: block;
@@ -33,7 +31,6 @@ label{
 .menu__button-wrapper{
     display: none;
 }
-
 
 body.lock{
     overflow: hidden;
@@ -79,8 +76,13 @@ li.header__nav{
     padding-top: 20px;
     font-weight: 600;
 }
-.header__prof{
+span.header__prof{
+    background-color: rgba(0, 0, 0, 0.77);
+    border-radius: 30px;
     color: red;
+    padding: .5rem;
+    display: inline-block;
+    margin: 20px;
 }
 
 .my_photo{
@@ -94,6 +96,7 @@ li.header__nav{
 
 .text-wrapper{
     font-size: 25px;
+    font-weight: 600;
     flex: 0 0 60%;
 }
 p.name{
