@@ -142,7 +142,7 @@ p.name{
 }
 .modalDialog__Proj > div{
     width: 42rem;
-    height: 29rem;
+    height: 42rem;
 }
 .close {
     background: #606061;
@@ -201,7 +201,7 @@ ul.skills__list{
 
 .projects__title{
     text-align: center;
-    padding-top: 1.5rem;
+    /*padding-top: 1.5rem;*/
     margin-bottom: 2rem;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
@@ -215,7 +215,7 @@ ul.skills__list{
 }
 
 img.proj__Lina{
-    height: 53%;
+    height: 100%;
 }
 
 img.proj__Rest {
@@ -224,6 +224,9 @@ img.proj__Rest {
 .proj-range{
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+.proj-item{
+    margin-bottom: 20px;
 }
 
 /* Footer */
@@ -532,7 +535,7 @@ textarea[type="text"]::placeholder {
             width: 378px;
         }
         .modalDialog__Proj > div {
-            height: 19rem;
+            height: 27rem;
         }
         h6.skills__title {
             font-size: 1rem;
